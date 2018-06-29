@@ -17,6 +17,7 @@ namespace Assets.Scripts
         void Start()
         {
             InitializeGame();
+            
         }
 
         void InitializeGame()
@@ -27,7 +28,7 @@ namespace Assets.Scripts
             {    
                 int grass_Height = UnityEngine.Random.Range(1, 2);
                 int dirt_Height = UnityEngine.Random.Range(1, 5);
-                int stone_Height = UnityEngine.Random.Range(1, 7);
+                int stone_Height = UnityEngine.Random.Range(3, 7);
                 int Width = UnityEngine.Random.Range(2, 5);
                 for(int i = 0; i < Width; i++)
                 {

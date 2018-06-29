@@ -51,10 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Block.cs" />
      <Compile Include="Assets\Scripts\CameraMoving.cs" />
-     <Compile Include="Assets\Scripts\Controller2D.cs" />
+     <Compile Include="Assets\Scripts\Dirt.cs" />
+     <Compile Include="Assets\Scripts\DisplayObjData.cs" />
      <Compile Include="Assets\Scripts\GameControl.cs" />
+     <Compile Include="Assets\Scripts\Grass.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Stone.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/warren/OneDrive - NTU.gg/大學/大四下/物件導向實作/obj_ori_code_project/final project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
