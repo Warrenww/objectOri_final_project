@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 41108622}
   - component: {fileID: 41108624}
   - component: {fileID: 41108623}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: object name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,6 +272,21 @@ Prefab:
       propertyPath: m_Drag
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114717239773297226, guid: 3afd6fddde6ab2342847ff9211aced2d,
+        type: 2}
+      propertyPath: health_0
+      value: 
+      objectReference: {fileID: 2800000, guid: b2bec12c5af439b4883f82cc566e4b37, type: 3}
+    - target: {fileID: 114717239773297226, guid: 3afd6fddde6ab2342847ff9211aced2d,
+        type: 2}
+      propertyPath: health_05
+      value: 
+      objectReference: {fileID: 2800000, guid: 0ba40d507f3ddf24a8c9bae13e5997a8, type: 3}
+    - target: {fileID: 114717239773297226, guid: 3afd6fddde6ab2342847ff9211aced2d,
+        type: 2}
+      propertyPath: health_1
+      value: 
+      objectReference: {fileID: 2800000, guid: 439bc4d4a4eaefe4cb1b0d9158b30be3, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3afd6fddde6ab2342847ff9211aced2d, type: 2}
   m_IsPrefabParent: 0
@@ -285,7 +300,7 @@ GameObject:
   - component: {fileID: 225872545}
   - component: {fileID: 225872547}
   - component: {fileID: 225872546}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: object duration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +463,7 @@ GameObject:
   - component: {fileID: 656077027}
   - component: {fileID: 656077026}
   - component: {fileID: 656077030}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: objectData
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +515,7 @@ Canvas:
   m_GameObject: {fileID: 656077025}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 282840813}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -560,7 +575,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &756254247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -601,7 +616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1045567536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -689,9 +704,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1648fbac4e2e1e042bb07538ea8fdff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothRate: 0.01
-  jumpHeight: 1
-  HitPoint: 3
+  rb: {fileID: 0}
+  health_0: {fileID: 2800000, guid: b2bec12c5af439b4883f82cc566e4b37, type: 3}
+  health_05: {fileID: 2800000, guid: 0ba40d507f3ddf24a8c9bae13e5997a8, type: 3}
+  health_1: {fileID: 2800000, guid: 439bc4d4a4eaefe4cb1b0d9158b30be3, type: 3}
 --- !u!23 &1353407612
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -937,7 +953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1802660366
 Transform:
   m_ObjectHideFlags: 0

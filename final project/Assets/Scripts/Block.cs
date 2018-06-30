@@ -23,7 +23,6 @@ namespace Assets.Scripts
         {
 
         }
-
         void Update()
         {
             if (_destroying && _focus)
@@ -45,7 +44,6 @@ namespace Assets.Scripts
             DisplayObjData.Instance.RenderDuration(0.0f);
             _focus = false;
         }
-
         void OnMouseDown()
         {
             _destroying = true;
@@ -56,9 +54,7 @@ namespace Assets.Scripts
             duration = Max_duration;
             GetComponent<Renderer>().material.color = originalColor;
             DisplayObjData.Instance.RenderDuration(duration);
-
         }
-
         private void destroyIt()
         {
             duration -= 0.1f;
