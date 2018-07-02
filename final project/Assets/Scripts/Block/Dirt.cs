@@ -13,6 +13,7 @@ namespace Assets.Scripts
             BlockName = "dirt";
             Max_duration = 10.0f;
             duration = Max_duration;
+            efficientTool = "Shovel";
         }
     }
 }

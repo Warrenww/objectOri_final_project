@@ -6,13 +6,12 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    class Grass : Block
+    class Shovel : Tool
     {
         void Start()
         {
-            Max_duration = 10.0f;
-            BlockName = "grass";
-            duration = Max_duration;
+            ItemName = "Iron Shovel";
+            ItemType = "Shovel";
         }
 
     }

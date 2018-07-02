@@ -13,6 +13,7 @@ namespace Assets.Scripts
             Max_duration = 20.0f;
             BlockName = "stone";
             duration = Max_duration;
+            efficientTool = "Pickaxe";
         }
     }
 }

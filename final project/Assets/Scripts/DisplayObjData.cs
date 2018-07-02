@@ -11,6 +11,7 @@ namespace Assets.Scripts
     {
         public Text ObjName;
         public Text ObjDuration;
+        public Text ItemName;
         public static DisplayObjData Instance;
         
         void Start()
@@ -24,6 +25,10 @@ namespace Assets.Scripts
         public void RenderDuration(float duration)
         {
             ObjDuration.text = "Duration : " + duration.ToString("N1");
+        }
+        public void RenderItemName(string Name)
+        {
+            ItemName.text = "Item : " + Name;
         }
     }
 }

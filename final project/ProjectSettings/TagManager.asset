@@ -4,6 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - item
+  - Undefined
   - block
   layers:
   - Default

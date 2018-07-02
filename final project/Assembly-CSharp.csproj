@@ -52,14 +52,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Block.cs" />
+    <Compile Include="Assets\Scripts\Block\Block.cs" />
+    <Compile Include="Assets\Scripts\Block\Dirt.cs" />
+    <Compile Include="Assets\Scripts\Block\Grass.cs" />
+    <Compile Include="Assets\Scripts\Block\Stone.cs" />
     <Compile Include="Assets\Scripts\CameraMoving.cs" />
-    <Compile Include="Assets\Scripts\Dirt.cs" />
     <Compile Include="Assets\Scripts\DisplayObjData.cs" />
     <Compile Include="Assets\Scripts\GameControl.cs" />
-    <Compile Include="Assets\Scripts\Grass.cs" />
+    <Compile Include="Assets\Scripts\IObservable.cs" />
+    <Compile Include="Assets\Scripts\IObserve.cs" />
+    <Compile Include="Assets\Scripts\item\BareHand.cs" />
+    <Compile Include="Assets\Scripts\item\BlockItem.cs" />
+    <Compile Include="Assets\Scripts\item\Item.cs" />
+    <Compile Include="Assets\Scripts\item\Pickaxe.cs" />
+    <Compile Include="Assets\Scripts\item\Shovel.cs" />
+    <Compile Include="Assets\Scripts\item\Tool.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Stone.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/warren/OneDrive - NTU.gg/大學/大四下/物件導向實作/obj_ori_code_project/final project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
