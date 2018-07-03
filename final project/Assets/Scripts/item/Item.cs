@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    class Item : MonoBehaviour
+    class Item : MonoBehaviour, IEquatable<Item>
     {
         protected bool Isfloating = false;
         private int _floating = 0;
@@ -19,6 +19,10 @@ namespace Assets.Scripts
         protected Material material;
         private float disappear = 0;
 
+        public bool Equals(Item other)
+        {
+            return this.ItemName == other.ItemName;
+        }
         void Awake()
         {
             material = GetComponent<Renderer>().material;

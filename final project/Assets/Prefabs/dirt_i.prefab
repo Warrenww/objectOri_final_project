@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4313969379419272}
   - component: {fileID: 33596907167477368}
   - component: {fileID: 23408674269224658}
-  - component: {fileID: 114406499586174056}
   - component: {fileID: 65798566108651272}
   - component: {fileID: 54969689010115580}
+  - component: {fileID: 114768598972930768}
   m_Layer: 0
   m_Name: dirt_i
   m_TagString: item
@@ -93,7 +93,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1294304071056962}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 0.001
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 6.1232336e-17}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114406499586174056
+--- !u!114 &114768598972930768
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -121,6 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1294304071056962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89b7bb9c2308c00498394796ac96144d, type: 3}
+  m_Script: {fileID: 11500000, guid: 89008b6aced6ddc448caa5dfbc08a46a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selfBlock: {fileID: 1264693560395176, guid: 434ab6136a326474ca53fa43835ff71b, type: 2}

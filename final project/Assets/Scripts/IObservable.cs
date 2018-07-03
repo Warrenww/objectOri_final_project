@@ -10,6 +10,7 @@ namespace Assets.Scripts
     {
         void Register(IObserve o);
         void Remove(IObserve o);
-        void Notify();
+        void Destroy();
+        void Construct();
     }
 }

@@ -63,9 +63,12 @@
     <Compile Include="Assets\Scripts\IObserve.cs" />
     <Compile Include="Assets\Scripts\item\BareHand.cs" />
     <Compile Include="Assets\Scripts\item\BlockItem.cs" />
+    <Compile Include="Assets\Scripts\item\dirtItem.cs" />
+    <Compile Include="Assets\Scripts\item\grassItem.cs" />
     <Compile Include="Assets\Scripts\item\Item.cs" />
     <Compile Include="Assets\Scripts\item\Pickaxe.cs" />
     <Compile Include="Assets\Scripts\item\Shovel.cs" />
+    <Compile Include="Assets\Scripts\item\stoneItem.cs" />
     <Compile Include="Assets\Scripts\item\Tool.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Reference Include="UnityEditor.StandardEvents">
@@ -305,6 +308,9 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

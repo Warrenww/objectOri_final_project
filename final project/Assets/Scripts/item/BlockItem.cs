@@ -8,10 +8,7 @@ namespace Assets.Scripts
 {
     class BlockItem : Item
     {
-        void Start()
-        {
-            ItemName = "Block";
-            ItemType = "Block";
-        }
+        public GameObject selfBlock;
+        
     }
 }

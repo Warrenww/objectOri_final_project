@@ -30,6 +30,13 @@ namespace Assets.Scripts
             {
                 Block._destroying = false;
             }
+            if (Input.GetMouseButtonDown(1))
+            {
+                Block._constructing = true;
+            }if (Input.GetMouseButtonUp(1))
+            {
+                Block._constructing = false;
+            }
         }
 
         void InitializeGame()
